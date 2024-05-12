@@ -11,75 +11,29 @@
 </head>
 
 <body>
-    // Generate series of `.navbar-expand-*` responsive classes for configuring
-// where your navbar collapses.
-.navbar-expand {
-  @each $breakpoint in map-keys($grid-breakpoints) {
-    $next: breakpoint-next($breakpoint, $grid-breakpoints);
-    $infix: breakpoint-infix($next, $grid-breakpoints);
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Nabbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">Media</a>
+          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#">Bank Details</a>
+          <a class="nav-link" href="#">Other Websites</a>
+          <!-- <a class="nav-link disabled" aria-disabled="true">Med</a> -->
 
-    // stylelint-disable-next-line scss/selector-no-union-class-name
-    &#{$infix} {
-      @include media-breakpoint-up($next) {
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-
-        .navbar-nav {
-          flex-direction: row;
-
-          .dropdown-menu {
-            position: absolute;
-          }
-
-          .nav-link {
-            padding-right: var(--#{$prefix}navbar-nav-link-padding-x);
-            padding-left: var(--#{$prefix}navbar-nav-link-padding-x);
-          }
-        }
-
-        .navbar-nav-scroll {
-          overflow: visible;
-        }
-
-        .navbar-collapse {
-          display: flex !important; // stylelint-disable-line declaration-no-important
-          flex-basis: auto;
-        }
-
-        .navbar-toggler {
-          display: none;
-        }
-
-        .offcanvas {
-          // stylelint-disable declaration-no-important
-          position: static;
-          z-index: auto;
-          flex-grow: 1;
-          width: auto !important;
-          height: auto !important;
-          visibility: visible !important;
-          background-color: transparent !important;
-          border: 0 !important;
-          transform: none !important;
-          @include box-shadow(none);
-          @include transition(none);
-          // stylelint-enable declaration-no-important
-
-          .offcanvas-header {
-            display: none;
-          }
-
-          .offcanvas-body {
-            display: flex;
-            flex-grow: 0;
-            padding: 0;
-            overflow-y: visible;
-          }
-        }
-      }
-    }
-  }
-}
+          <button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+        </div>
+      </div>
+    </div>
+  </nav>
 
  
 
