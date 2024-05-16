@@ -1,8 +1,13 @@
+.navbar{
+position: fixed;
 
+}
 #saylanilogo{
     width: 25%;
 }
-
+.likal{
+    margin-top: 30%;
+    }
 
 
 #top-navbar{
@@ -12,4 +17,217 @@
     height: 70vh;
     
 }
+.payment{
+   
+    width: 99vw;
+    display: flex;
+    height: 20vh;  
+    align-items: center;
+    background-color: #cdcda6d4;
+    padding: 0px 30px;
+    margin-top: 15px;
+}
 
+#paisay{
+    height: 40%;
+
+    margin-top: 10px ;
+    width: 30%;
+   
+}
+#paisay >p{
+    display: inline;
+    background-color: black;
+    color: white;
+    border: 7px solid rgb(21, 21, 21); 
+}
+#paisay > input{
+    border: 6px solid white;
+}
+
+#blood-btn{
+    background-color: #193ddb;
+    color: white;
+    height: 40%;
+    width: 30%;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+#blood-btn:hover{
+    height: 45%;
+    border: 3px solid blue
+}
+.same-btn{
+background-color: #f6fbffdc;
+color: black;
+border-radius: 15px;
+height: 40%;
+ margin-left: 4px;
+ padding:  0px 14px;
+border-color: #f6fbffdc;
+}
+#quick-btn{
+    background-color: #058114c3;
+    color: white;
+    height: 40%;
+    margin-left: 5%;
+   
+    
+} 
+
+#bianerlogo{
+   width: 96vw;
+   display: block;
+   margin: 40px auto;
+}
+
+.doing{
+    border: 2px solid red;
+    display: flex;
+
+}
+.what-we{
+    border: 2px solid blue;
+    width: 210px;
+    height: 200px;
+}
+.btn{
+    margin-left: 3px;
+}
+.nav-link:hover{
+    background-color: #6661fb;
+    
+    text-decoration-line: underline;
+    
+    text-decoration-color: #332df3;
+}
+#guide{
+
+    width: 100vw;
+    height: 40vh;
+    color: white;
+    background-color: #332df3;
+   
+    text-align: center;
+    padding: 15px;
+    opacity: 0.99;
+}
+#guide-text{
+    width: 33%;
+    height: 20%;
+    background-color: #332df3;
+    
+    border: 2px solid white;
+    margin: 5px;
+}
+#guide-text:hover{
+    background-color: rgb(255, 255, 255);
+    width: 36;
+    border-radius: 3px;
+    height: 24%;
+}
+input[placeholder^="E"]
+{
+    color: white !important;
+}
+#guide-btn{
+    width: 33%;
+    height: 20%;
+    border: 2px solid white;
+    margin: 5px;
+
+}
+#guide-btn:hover{
+    background-color: rgb(255, 255, 255);
+    width: 36;
+    border-radius: 3px;
+    height: 24%;
+
+}
+
+.videos-parent
+{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.videos-parent h1{
+  width: 99%;
+  text-align: center;
+  margin-top: 3%;
+   margin-bottom: 3%;
+ 
+   
+
+}
+.frame{
+    margin: 10px;
+    border: 3px solid blue;
+    height: 270px;
+    width: 250px;
+   
+} 
+
+.my-footer{
+    background-image: repeating-linear-gradient(#6d4c4c,#6d4c4c,#5b4242);
+    margin-top: 3%;
+    box-sizing: border-box;
+
+    display: grid;
+    width: 99vw;
+    color: white;
+    /* border: 2px solid black; */
+    height: 80vh;
+    grid-template-areas: 'left-taraf left-taraf darmiya right-taraf right-Der right-Der' 'nichay-waley nichay-waley nichay-waley nichay-waley nichay-waley nichay-waley'
+}
+.my-footer > div{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-top: 7%;
+}
+.my-footer > div > p:hover{
+    cursor: pointer;
+}
+#left-taraf{
+        grid-area: left-taraf;
+
+}
+#social-links{
+    margin-top: 7%;
+    padding: 3%;
+}
+#darmiya{
+    
+    grid-area: darmiya;
+}
+#right-taraf{
+  
+    grid-area: right-taraf;
+}
+#right-Der{
+    grid-area: right-Der;
+}
+#nichay-waley{
+  
+    grid-area: nichay-waley;
+}
+
+.taqsimat{
+    border: 3px solid red;
+    display: grid;
+    grid-template-areas: 'halk info-area';
+}
+.taqsimat > img{
+    width: 99%;
+    height: 99%;
+}
+.taqsimat > #halk-info > h3 {
+    color: #3f3c94;
+}
+#halk-photo{
+    grid-area: halk;
+    }
+#halk-info
+{
+    grid-area: info-area;
+}
