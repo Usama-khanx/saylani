@@ -46,8 +46,7 @@ position: fixed;
 }
 
 #blood-btn{
-    background-color: #3558ef;
-    color: white;
+    color: rgb(0, 0, 0);
     height: 40%;
     width: 30%;
     margin-left: 0px;
@@ -55,7 +54,8 @@ position: fixed;
 }
 #blood-btn:hover{
     height: 45%;
-    border: 3px solid blue
+     background-color: #3558ef; 
+    
 }
 .same-btn{
 background-color: #f6fbffdc;
@@ -130,7 +130,7 @@ border-color: #f6fbffdc;
 #guide-text{
     width: 33%;
     height: 20%;
-    background-color: #332df3;
+    background-color: #0b3f6b;
     
     border: 2px solid white;
     margin: 5px;
@@ -177,7 +177,7 @@ input[placeholder^="E"]
 }
 .frame{
     margin: 10px;
-    border: 3px solid blue;
+    
     height: 270px;
     width: 250px;
    
