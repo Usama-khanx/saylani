@@ -23,7 +23,7 @@ position: fixed;
     display: flex;
     height: 20vh;  
     align-items: center;
-    background-color: #cdcda6d4;
+    background-color: #efefd7d4;
     padding: 0px 30px;
     margin-top: 15px;
 }
@@ -46,7 +46,7 @@ position: fixed;
 }
 
 #blood-btn{
-    background-color: #193ddb;
+    background-color: #3558ef;
     color: white;
     height: 40%;
     width: 30%;
@@ -82,15 +82,30 @@ border-color: #f6fbffdc;
 }
 
 .doing{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
 
 }
 .what-we{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 210px;
     height: 200px;
+    background-color: aliceblue;
+    margin: 1px;
+
 }
+.what-we:hover{
+  
+    height: 250;
+    background-color: rgb(150, 204, 215);
+}
+.what-we > img{
+    
+    height: 40%;
+    margin: 25px 20px;
+    vertical-align:bottom;
+}
+
 .btn{
     margin-left: 3px;
 }
@@ -102,11 +117,11 @@ border-color: #f6fbffdc;
     text-decoration-color: #332df3;
 }
 #guide{
-
+    margin-top: 30px;
     width: 100vw;
     height: 40vh;
     color: white;
-    background-color: #332df3;
+    background-color: #1766da;
    
     text-align: center;
     padding: 15px;
@@ -166,8 +181,15 @@ input[placeholder^="E"]
     height: 270px;
     width: 250px;
    
-} 
+}
+.news{
+    margin-top: 30px;
+}
+.news > img{
+    width: 23%;
+    height: 250px;
 
+}
 .my-footer{
     background-image: repeating-linear-gradient(#6d4c4c,#6d4c4c,#5b4242);
     margin-top: 3%;
@@ -196,6 +218,9 @@ input[placeholder^="E"]
     margin-top: 7%;
     padding: 3%;
 }
+#social-links > a{
+    text-decoration: none;
+}
 #darmiya{
     
     grid-area: darmiya;
@@ -213,7 +238,7 @@ input[placeholder^="E"]
 }
 
 .taqsimat{
-    border: 3px solid red;
+    margin-top: 30px;
     display: grid;
     grid-template-areas: 'halk info-area';
 }
@@ -231,3 +256,38 @@ input[placeholder^="E"]
 {
     grid-area: info-area;
 }
+
+#owner-sey-uper{
+    margin-top: 40px;
+    text-align: center;
+}
+.diretor{
+ 
+    margin-top: 70px;
+}
+.diretor > img{
+
+    border-radius: 50%;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.diretor > h3{
+    text-align: center;
+    color: #332df3;
+
+}
+
+.back-next{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.back-next > img:hover{
+    background-color: #193ddb;
+
+
+}
+
